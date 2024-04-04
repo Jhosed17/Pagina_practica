@@ -1,0 +1,62 @@
+*{
+    margin: 0 ;
+}
+
+
+header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: azure;
+text-align: center;
+padding: 30px ;
+}
+
+.logo{
+    background-color: white; 
+}
+
+.titulo{
+    padding: 50PX;
+    text-align: center;
+}
+
+.loging{
+    background-color: azure;
+    width: 150px;
+}
+
+
+nav{
+    background-color: black;
+}
+
+nav a{
+    color: antiquewhite;
+    padding: 14px 20px;
+    text-decoration: line-through;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+}
+
+
+section{
+   width: 33%;
+   padding: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+    nav, .principal{
+        flex-direction: column;
+    }
+}
+
+.imagenes{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
